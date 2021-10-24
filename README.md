@@ -15,6 +15,10 @@ Users be able to create, update and delete their blogs. Also, they can add their
 
 ### Task 2
 * Create dummy CRUD api(BlogController) and prepare validations.
+
+_ Post method's sample for creating a new post _
+[![](./app-samples/post.JPG "Create a new post")](https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/)
+
 ---
 ### Tech Stack
 ---
