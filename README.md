@@ -6,12 +6,15 @@ This repo has my Spring Boot project which will develop during bootcamp.
 ---
 This project provides to create their blogs by users.
 ### Summary
-Users be able to create, update and delede their blogs. Also they can add their social media accounts and blogs can be commented on.
+Users be able to create, update and delete their blogs. Also, they can add their social media accounts and blogs can be commented on.
 
 ---
-### Task1
-- Create project and load Github.
+### Task 1
+- Create project and load GitHub.
+---
 
+### Task 2
+* Create dummy CRUD api(BlogController) and prepare validations.
 ---
 ### Tech Stack
 ---
