@@ -10,16 +10,24 @@ Users be able to create, update and delete their blogs. Also, they can add their
 
 ---
 ### Task 1
-- Create project and load GitHub.
+ ✨Create project and load GitHub.
+ 
 ---
 
-### Task 2
-* Create dummy CRUD api(BlogController) and prepare validations.
+ ###  [Task 2](https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/commit/6b1dbce3ced1cb6553b1b61a0277992fcd4da183) 
 
-_ Post method's sample for creating a new post _
+ ✨ Create dummy CRUD api(BlogController) and prepare validations.
+
+
+>  `Post method's sample for creating a new post` 
+
 [![](./app-samples/post.JPG "Create a new post")](https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/)
 
----
+> `Validation rules for fields`
+
+[![](./app-samples/exception.JPG "sample for MethodArgumentNotValidException")](https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/)
+
+
 ### Tech Stack
 ---
 - Java 11
