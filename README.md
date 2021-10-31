@@ -1,5 +1,9 @@
-# FolksDev & Kod Gemisi Spring Bootcamp
-
+ [![FolksDev](./app-samples/folksdev.PNG)](https://www.youtube.com/c/FolksDev) :pushpin: [![kodgemisi](./app-samples/kodgemisi.PNG)](https://kodgemisi.com/) 
+  
+ # 
+ 
+ # FolksDev & Kod Gemisi Spring Bootcamp
+ 
 This repo has my Spring Boot project which will develop during bootcamp.
 
 ## Blog Project
