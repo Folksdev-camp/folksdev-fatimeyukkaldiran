@@ -2,7 +2,7 @@ package com.folksdev.fatimeyuk.blogapp.controller;
 
 import com.folksdev.fatimeyuk.blogapp.dto.CreatePostDto;
 import com.folksdev.fatimeyuk.blogapp.dto.CreatePostRequest;
-import com.folksdev.fatimeyuk.blogapp.enums.BlogStatus;
+import com.folksdev.fatimeyuk.blogapp.model.BlogStatus;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -7,6 +7,8 @@ data class Post @JvmOverloads constructor(
 
         val title: String,
         val content: String,
+
+        @field:Enumerated(EnumType.STRING)
         val status: BlogStatus,
 
         @ManyToOne(fetch = FetchType.LAZY)
