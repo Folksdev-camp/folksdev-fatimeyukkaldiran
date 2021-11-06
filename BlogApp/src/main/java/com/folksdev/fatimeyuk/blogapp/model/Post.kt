@@ -14,7 +14,15 @@ data class Post @JvmOverloads constructor(
         val author: Author,
 
         @OneToMany(mappedBy = "post", fetch = FetchType.LAZY)
-        val comments: Set<Comment>
+        val comments: Set<Comment>,
+
+        @ManyToMany(fetch = FetchType.LAZY)
+        @JoinTable(
+                name = "post_tag",
+                joinColumns = [JoinColumn(name = "post_id", referencedColumnName = "id")],
+                inverseJoinColumns = [JoinColumn(name = "tag_id", referencedColumnName = "id")]
+        )
+        val tags: Set<Tag>? = HashSet()
 
 ) : BaseEntity(){
 
