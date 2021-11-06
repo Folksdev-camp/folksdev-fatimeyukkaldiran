@@ -1,5 +1,6 @@
 package com.folksdev.fatimeyuk.blogapp.model
 
+import org.hibernate.Hibernate
 import javax.persistence.*
 
 @Entity
@@ -28,6 +29,16 @@ data class Post @JvmOverloads constructor(
 
 ) : BaseEntity(){
 
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other == null ||
+                Hibernate.getClass(this) != Hibernate.getClass(other)) return false
+        other as Post
+
+        return id != null && id == other.id
+    }
+
+    override fun hashCode(): Int = javaClass.hashCode()
 }
 
 enum class BlogStatus {
