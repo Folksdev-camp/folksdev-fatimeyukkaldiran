@@ -1,9 +1,6 @@
 package com.folksdev.fatimeyuk.blogapp.model
 
-import javax.persistence.Entity
-import javax.persistence.FetchType
-import javax.persistence.JoinColumn
-import javax.persistence.ManyToOne
+import javax.persistence.*
 
 @Entity
 data class Post @JvmOverloads constructor(
@@ -14,7 +11,10 @@ data class Post @JvmOverloads constructor(
 
         @ManyToOne(fetch = FetchType.LAZY)
         @JoinColumn(name = "author_id", referencedColumnName = "id")
-        val author: Author
+        val author: Author,
+
+        @OneToMany(mappedBy = "post", fetch = FetchType.LAZY)
+        val comments: Set<Comment>
 
 ) : BaseEntity(){
 

@@ -13,7 +13,10 @@ data class Author @JvmOverloads constructor(
         val email: String,
 
         @OneToMany(mappedBy = "author", fetch = FetchType.LAZY)
-        val posts: Set<Post>
+        val posts: Set<Post>,
+
+        @OneToMany(mappedBy = "author", fetch = FetchType.LAZY)
+        val comments: Set<Comment>
 
 ) : BaseEntity() {
 
