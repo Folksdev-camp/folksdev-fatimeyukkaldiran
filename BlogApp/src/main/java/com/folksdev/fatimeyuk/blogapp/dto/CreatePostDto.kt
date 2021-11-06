@@ -1,6 +1,7 @@
 package com.folksdev.fatimeyuk.blogapp.dto
 
-import com.folksdev.fatimeyuk.blogapp.enums.BlogStatus
+import com.folksdev.fatimeyuk.blogapp.model.BlogStatus
+
 
 data class CreatePostDto(
         val title: String,

@@ -1,6 +1,6 @@
 package com.folksdev.fatimeyuk.blogapp.dto
 
-import com.folksdev.fatimeyuk.blogapp.enums.BlogStatus
+import com.folksdev.fatimeyuk.blogapp.model.BlogStatus
 import javax.validation.constraints.NotBlank
 import javax.validation.constraints.Size
 
