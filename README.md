@@ -13,7 +13,27 @@ This project provides to create their blogs by users.
 Users be able to create, update and delete their blogs. Also, they can add their social media accounts and blogs can be commented on.
 
 ---
-### [Task 4]
+### [Task 4]( https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/commit/c585bebc0a862ca61156538e89001b10758c06bf)
+:sparkles: Create your project's entities and set up relationships in-between.
+
+<details open="open">
+  <summary style="font-size:120%">Model</summary>
+  <ul style="font-size:105%">
+    <li>
+      <a href="https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/tree/master/BlogApp/src/main/java/com/folksdev/fatimeyuk/blogapp/model/Author.kt">Author</a>
+    </li>
+    <li>
+     <a href="https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/tree/master/BlogApp/src/main/java/com/folksdev/fatimeyuk/blogapp/model/Post.kt">Post</a>
+    </li>
+    <li>
+      <a href="https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/tree/master/BlogApp/src/main/java/com/folksdev/fatimeyuk/blogapp/model/Comment.kt">Comment</a>
+    </li>
+    <li>
+      <a href="https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/tree/master/BlogApp/src/main/java/com/folksdev/fatimeyuk/blogapp/model/Tag.kt">Tag</a>
+    </li>
+
+  </ul>
+</details>
 
 ### [Task 3](https://github.com/Folksdev-camp/folksdev-fatimeyukkaldiran/commit/e39ccafad6e067f3b406d65f733fc149881c61e2)
 
